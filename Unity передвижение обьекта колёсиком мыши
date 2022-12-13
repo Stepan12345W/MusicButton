@@ -1,0 +1,7 @@
+    void Update()
+    {
+        if (Input.mouseScrollDelta.y < 0.0f)
+            transform.position += Vector3.down;
+        if (Input.mouseScrollDelta.y > 0.0f)
+            transform.position += Vector3.up;
+    }
